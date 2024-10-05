@@ -6,7 +6,7 @@ import { dataAdmin, dataNotYet, dataUser } from './component/Data'
 function App() {
   return (
     <div className="container">
-      <h1 className="text-uppercase my-4 text-center">
+      <h1 className="text-uppercase my-5 text-center">
         Demo Some image srceen project Lottery Tickets
       </h1>
       <User
