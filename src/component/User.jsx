@@ -7,7 +7,7 @@ const User = ({ title, data }) => {
           data.length > 0 &&
           data.map((item, index) => {
             return (
-              <div className="card col-sm-6  d-flex flex-column  " key={index}>
+              <div className="card col-sm-6  d-flex flex-column" key={index}>
                 <div
                   className="flex-grow-1 border border-black"
                   style={{ flexBasis: '80%' }}
@@ -16,12 +16,13 @@ const User = ({ title, data }) => {
                     src={item.url}
                     style={{ height: 'auto', width: '100%' }}
                     className="d-block"
-                  ></img>
+                    alt={item.title}
+                  />
                 </div>
-                <div className="">
+                <div>
                   <hr className="text-danger"></hr>
 
-                  <h5 className="text-uppercase my-4 text-center text-danger ">
+                  <h5 className="text-uppercase my-4 text-center text-danger">
                     {item.title}
                   </h5>
                 </div>

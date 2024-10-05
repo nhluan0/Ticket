@@ -7,16 +7,19 @@ function App() {
   return (
     <div className="container">
       <h1 className="text-uppercase my-5 text-center">
-        Demo Some image srceen project Lottery Tickets
+        Demo Some image screen project Lottery Tickets
       </h1>
       <User
         title="Main Functions for user not yet register"
         data={dataNotYet}
+        className="mb-5"
       />
-      <br></br>
 
-      <User title="Main Function for user has roles user" data={dataUser} />
-      <br></br>
+      <User
+        title="Main Function for user has roles user"
+        data={dataUser}
+        className="mb-5"
+      />
 
       <User title="Main Function for admin" data={dataAdmin} />
     </div>

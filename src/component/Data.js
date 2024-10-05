@@ -75,7 +75,7 @@ export const dataAdmin = [
   },
   {
     url: '/reset_password.png',
-    title: 'reset_password.png',
+    title: 'reset_password',
   },
   {
     url: '/add_update_result_lottery_ticket.png',
